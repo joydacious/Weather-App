@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<title>Weather App</title>
+     <meta charset="UTF-8"> 
+  	<link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+  	<header>
+      <section id="name"><a href="index.html">Weather</a></section>
+      <section id="select-temp-nav"><a href="#"><span class="select-temp" id="celsius">&deg;C</span></a>
+      <a href="#"><span class="select-temp" id="fahrenheit">&deg;F</span></a></section>
+  	</header>
+    <section class="weather-nav">
+      <section class="weather-links"><a href="index.html">Today</a> | <a href="forecast.html">5 Day Forecast</a></section> 
+      <section class="search_box">
+        <input id="search-text-index" type="search" placeholder="Enter your city, state or zipcode"></input>
+        <button id="search-button-index" type="button">Search</button>
+      </section>
+    </section>
+    <section class="container">
+      <section class="weather-container">
+        <p><span id="location"></span></p>
+        <h1 id="temperature"></h1>
+        <section id="details">
+          <p><span id="weather_description"></span>
+          <br><span id="humidity"></span>
+          <br><span id="wind"></span></p>
+        </section>
+      </section>
+    </section>
+    <footer>
+      <p>Powered by <a href="http://flickr.com/services/api/">Flickr</a> and <a href="http://openweathermap.org">Openweathermap.org</a>. 
+    </footer>
+
+  </body>
+</html>
